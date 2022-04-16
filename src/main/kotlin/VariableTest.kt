@@ -1,6 +1,11 @@
 
 
 fun main( args : Array<String>) {
+    val multiLine = """ hi line
+        |string # hi man
+    """.trimMargin()
+
+    print(multiLine)
     incrementX()
     incrementX()
     println(x)
