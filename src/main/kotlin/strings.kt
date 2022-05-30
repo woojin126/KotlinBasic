@@ -1,4 +1,5 @@
 package strings
+import woojin.View
 import woojin.joinToString
 fun String.lastChar(): Char = this.get(this.length -1)
 
